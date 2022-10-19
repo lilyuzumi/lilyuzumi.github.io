@@ -1,0 +1,37 @@
+nav {
+    height: 50px;
+    background-color: antiquewhite;
+    color: #c8c8c8;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style-type: none;
+}
+
+nav li{
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none;
+}
+a:hover{
+ text-decoration: none;
+ color: pink;
+}
+section{
+ min-height: 480px;
+ background-color: #484848;
+ color:orange;
+ padding: 10px;
+ border: 2px dotted #8961b5;
+}
+section:hover{
+    background-color: #181818;
+    color: rgb (255, 188, 63);
+}
+
