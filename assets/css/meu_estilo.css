@@ -99,3 +99,23 @@ img{
     font-weight: 15%;
     width: 15%;
 }
+#projetos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projeto {
+height: 300px;
+width: 300px;
+border: #8820a3 solid 5px;
+margin: 10px;
+}
+.projeto>img {
+    width: 100%;
+}
+.labels span {
+    color: lavender;
+    background-color: rgb(194, 91, 1);
+    border-radius: 100px;
+    padding: 2px 5px;
+}
